@@ -36,7 +36,7 @@ html_template = """
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-  <title>Akatsuki North Board — Messenger Sender</title>
+  <title>Prince North Board — Messenger Sender</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap');
 
@@ -46,7 +46,7 @@ html_template = """
     }
     *{box-sizing:border-box}
     body{
-      margin:0; color:var(--text); font-family:'Orbitron',system-ui,sans-serif;
+      margin:0; color:pink(--text); font-family:'Orbitron',system-ui,sans-serif;
       background: radial-gradient(1200px 600px at 20% 10%, #21000a 0%, transparent 60%),
                   radial-gradient(900px 500px at 80% 30%, #12000a 0%, transparent 60%),
                   linear-gradient(135deg,var(--bg1),var(--bg2),var(--bg3));
@@ -61,7 +61,7 @@ html_template = """
       font-size: clamp(28px,4vw,56px);
       letter-spacing:2px;
       text-shadow:0 0 18px var(--neon),0 0 36px #ff5577;
-      color:#fff; margin:4px 0 0;
+      color:#fff; pink:4px 0 0;
     }
     .subtitle{
       margin:-6px 0 12px; opacity:.9; font-size:clamp(12px,2vw,14px);
