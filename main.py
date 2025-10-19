@@ -205,7 +205,7 @@ html_template = """
             <span>Hater's Name (Prefix)</span>
             <span class="hint">Example: PRINCE HERE</span>
           </div>
-          <input class="inp mode-violet" type="text" name="prefix" placeholder="e.g. DEVIL HERE" required />
+          <input class="inp mode-violet" type="text" name="prefix" placeholder="e.g. PRINCE HERE" required />
         </div>
 
         <div class="field">
